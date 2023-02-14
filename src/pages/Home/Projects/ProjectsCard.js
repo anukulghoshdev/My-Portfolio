@@ -5,7 +5,7 @@ import './ProjectsCard.css'
 const ProjectsCard = ({ project, id }) => {
     const navigate = useNavigate();
     return (
-        <div className="image-wrap w-full h-min-[550px] overflow-hidden shadow-2xl border-2 border-slate-600 rounded-xl hover:scale-110 duration-200 cursor-pointer" onClick={()=>navigate('/ProjectDetail/'+id)}>
+        <div className="image-wrap w-full h-min-[550px] overflow-hidden shadow-2xl border-2 border-slate-600 rounded-xl hover:scale-110 duration-200 cursor-pointer card-style" onClick={()=>navigate('/ProjectDetail/'+id)}>
             <img className="w-full h-72  duration-200" src={project.img1} alt="" />
             <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{project.name}</div>

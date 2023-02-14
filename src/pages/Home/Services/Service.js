@@ -6,7 +6,7 @@ const Service = () => {
     return (
         <div className='flex flex-col md:flex-row justify-center items-center mt-24 ' >
 
-            <div className='w-96 bg-[#18181e] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4'>
+            <div className='w-[360px] bg-[#18181e] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4'>
                 <div className='w-14 h-14 rounded-full bg-[#203440] flex justify-center items-center'>
                     <SiLeaflet className='text-2xl text-[#72E2AE] '></SiLeaflet>
                 </div>
@@ -19,7 +19,7 @@ const Service = () => {
             </div>
 
 
-            <div className='w-96 bg-[#141419] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4 md:mx-6 my-2'>
+            <div className='w-[360px] bg-[#141419] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4 md:mx-6 my-2'>
                 <div className='w-14 h-14 rounded-full bg-[#203440] flex justify-center items-center'>
                     <FaTabletAlt className='text-2xl text-[#72E2AE] '></FaTabletAlt>
                 </div>
@@ -32,7 +32,7 @@ const Service = () => {
             </div>
 
 
-            <div className='w-96 bg-[#141419] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4 my-2'>
+            <div className='w-[360px] bg-[#141419] h-60 border-2 border-gray-700 rounded-lg md:flex flex-col justify-center items-start pl-4 my-2'>
                 <div className='w-14 h-14 rounded-full bg-[#203440] flex justify-center items-center'>
                     <FaDatabase className='text-2xl text-[#72E2AE] '></FaDatabase>
                 </div>

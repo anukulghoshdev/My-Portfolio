@@ -1,11 +1,19 @@
-.image-wrap{
-    overflow: hidden;
+.image-wrap {
+  overflow: hidden;
 }
-.image-wrap img{
-    object-fit: cover;
-    object-position: top center;
-    transition: all 3s ease-in-out;
+.image-wrap img {
+  object-fit: cover;
+  object-position: top center;
+  transition: all 3s ease-in-out;
 }
-.image-wrap:hover img{
-    object-position: bottom center;
+.image-wrap:hover img {
+  object-position: bottom center;
+}
+.card-style {
+  background: rgba(36, 16, 124, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }

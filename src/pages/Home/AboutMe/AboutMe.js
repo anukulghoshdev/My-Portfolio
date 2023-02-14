@@ -1,6 +1,6 @@
 import React from 'react';
 import img2 from '../../../assests/298612394_438531391647474_9139687509263011185_n.jpg'
-
+import './AboutMe.css';
 const AboutMe = () => {
     return (
         <div name="about" className='bg-[#17171d] h-screen overflow-hidden' id='about'>
@@ -11,7 +11,7 @@ const AboutMe = () => {
 
             <div className='md:flex mt-20 justify-center items-center  w-96 md:w-full mx-auto md:mx-0'>
                 <div className=' p-2  rounded md:flex justify-center ' >
-                    <img src={img2} className=" w-56 lg:w-72 border-solid border-2 border-sky-500 shadow-lg rounded" alt="" />
+                    <img src={img2} className=" w-56 lg:w-72 glow-item2  rounded" alt="" />
                 </div>
 
                 <div className=' md:flex flex-col justify-start items-start leading-8 ml-5 '>

@@ -8,14 +8,15 @@ import Typewriter from 'typewriter-effect';
 import SocialLinks from './SocialLinks';
 import { motion } from "framer-motion"
 import bg from '../../../assests/bg.jpg'
+import './Banner.css';
 {/* <motion.div className='' animate={{x:0, y:0, scale:1.1, rotate:0}} transition={{duration:1, type:"tween", damping: 75}}></motion.div> */ }
 
 const Banner = () => {
 
     return (
-        <div name='home' className=''>
+        <div name='home' className='sdfsd'>
 
-            <div className='h-screen flex flex-col justify-center items-center bg-[#141419]'>
+            <div className='sdfsd circle-in-bottom-left h-screen flex flex-col justify-center items-center bg-[#141419]'>
 
 
 
@@ -33,10 +34,10 @@ const Banner = () => {
                     </div>
                 </div> */}
 
-                <div className='relative'>
-                    <div class="absolute -top-14 -left-10 w-72 h-72   lg:w-96 lg:h-96 bg-blue-300 rounded-full  filter blur-2xl mix-blend-soft-light"></div>
+                <div className='relative '>
+                    <div class="absolute -top-14 -left-10 w-72 h-72   lg:w-96 lg:h-96 "></div>
                     <div className='block  bg-gradient-to-tr from-green-500 to-sky-400 p-2 rounded-full '>
-                        <div className='bg-slate-300 rounded-full relative'>
+                        <div className='bg-slate-300 rounded-full relative glow-item'>
                             <img className="object-cover w-28 h-28 md:w-44 md:h-44 lg:w-64 lg:h-64 rounded-full " src={img} alt="Avatar" />
                         </div>
                     </div>
@@ -66,7 +67,7 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <a href='/resume.pdf' className='font-medium text-white w-fit px-6 py-3 my-2 rounded-md bg-gradient-to-l from-cyan-500 to-blue-500 cursor-pointer' downl>Download Resume</a>
+                    <a href='/resume.pdf' className=' font-medium text-white w-fit px-6 py-3 my-2 rounded-md bg-gradient-to-l from-cyan-500 to-blue-500 cursor-pointer' >Download Resume</a>
                 </div>
 
             </div>
